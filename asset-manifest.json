@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/course-shop/static/js/main.c9604f2a.js",
+    "index.html": "/course-shop/index.html",
+    "main.c9604f2a.js.map": "/course-shop/static/js/main.c9604f2a.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.c9604f2a.js"
+  ]
+}
