@@ -1,6 +1,5 @@
 import { Close } from "@mui/icons-material";
-import { Grid, IconButton, ListItem, Typography } from "@mui/material";
-import { fontSize } from "@mui/system";
+import { IconButton, ListItem, Typography } from "@mui/material";
 
 const flexContainer = {
     display: "flex",
@@ -17,7 +16,7 @@ const BasketItem = ({ removeFromOrder, id, title, price, descr, quantity,src}) =
             >
                 {title} 
             </Typography>
-            <img src={src} className="basket-img"/>
+            <img src={src} alt={title} className="basket-img"/>
             <Typography
                 variant="span"
                 sx={{fontSize: "14px", fontWeight: 900}}
