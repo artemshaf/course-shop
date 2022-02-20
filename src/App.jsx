@@ -1,6 +1,6 @@
 import { data } from "./store/data";
 import { useEffect, useState } from "react";
-import { AnimatePresence, AnimateSharedLayout, motion } from "framer-motion";
+import { AnimateSharedLayout } from "framer-motion";
 import MenuItem from "./components/Menu/MenuItem";
 import { Button, Card, CardActions, CardContent, CardMedia, Grid, Stack, Typography, Container } from "@mui/material";
 import "./components/Menu/style.css";
