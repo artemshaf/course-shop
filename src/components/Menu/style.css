@@ -1,0 +1,22 @@
+.animate-menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: fit-content;
+    background: #eee;
+    padding: 1rem;
+    border-radius: 25px;
+    margin: 20px auto;
+} 
+.animate-menu-item{
+    position: relative;
+    margin: 0 1rem;
+    font-weight: 900;
+}
+
+@media (max-width:1024px) {
+    .animate-menu-item{
+        margin: 0.5rem 1rem;
+    }
+}

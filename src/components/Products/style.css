@@ -1,0 +1,22 @@
+.card-descr, .card-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+}
+.card-title{
+    -webkit-line-clamp: 2;
+    height: 45px;
+}
+.card{
+    transition: 0.3s;
+}
+.card:hover{
+    transform: scale(1.03);
+}
+
+.card-btn{
+    margin-top: auto;
+}

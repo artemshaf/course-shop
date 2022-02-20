@@ -1,7 +1,7 @@
 import { AppBar, Badge, Icon, IconButton, Toolbar, Typography } from "@mui/material";
 import { AccountBox, ShoppingBasket } from "@mui/icons-material";
 
-const Header = () => {
+const Header = ({handleCart,orderLength}) => {
     return (
         <AppBar position="static">
             <Toolbar>
@@ -14,16 +14,19 @@ const Header = () => {
                 </Typography>
                 <IconButton
                     color="inherit"
+                    onClick={handleCart}
                 >
-                    <AccountBox/>
+                    {/* <AccountBox/> */}
                 </IconButton>
                 <IconButton
                     color="inherit"
-                    
+                    onClick={handleCart}
                 >
                     <Badge
                         color="secondary"
-                        
+                        badgeContent={
+                            orderLength
+                        }
                     >
                     <ShoppingBasket/>
                     </Badge>

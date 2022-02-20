@@ -10,6 +10,7 @@ function MenuItem(props) {
                 margin: "0 1rem",
                 fontWeight: 900,
                 position: "relative",
+                cursor: "pointer",
             }}
             initial={{ color: "#000" }}
             animate={{ color: isSelected ? "rgb(53, 60, 160)" : "#000" }}
@@ -23,6 +24,7 @@ function MenuItem(props) {
 function ActiveLine() {
     return (
         <motion.div
+
             layoutId="activeItem"
             style={{
                 width: "calc(100% - 10px)",
